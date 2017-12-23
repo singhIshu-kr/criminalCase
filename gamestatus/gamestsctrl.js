@@ -13,7 +13,7 @@ const displayInstructions=function() {
   }
   let instructions=document.getElementById('howToPlay');
   let rules=instructions.innerHTML;
-  instructions.innerHTML=rules + "<br>" + gameRules[index];
+  instructions.innerHTML=`${rules}<br>${gameRules[index]}`;
   index++;
 }
 
