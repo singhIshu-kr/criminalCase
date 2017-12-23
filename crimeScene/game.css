@@ -2,39 +2,39 @@ h1{
   color: rgb(242, 240, 17);
   text-align: center;
   font-style: italic;
-  font-size: 45px;
+  font-size: 300%;
 }
 
 h2{
   text-align: center;
-  font-size: 40px;
+  font-size: 250%;
   color: rgb(242, 240, 17);
-  padding-left: 30px;
+  padding-left: 4.5%;
 }
 
 
 a{
   color: rgb(200, 231, 242);
-  font-size: 25px;
+  font-size: 170%;
   text-align: center;
 }
 
 #timer{
   text-align: right;
-  font-size: 40px;
+  font-size: 200%;
   color: rgb(242, 240, 17);
 }
 
 table{
-  margin-left: 100px;
+  margin-left: 6%;
   background-image: url("../resources/criminal.jpg");
   border:solid black;
   background-repeat: no-repeat;
-  background-size: 1350px 720px;
+  background-size: 100% 100%;
 }
 tr,td{
-  border: 0px solid rgb(242, 234, 25);
-  padding:60px;
+  border: 0% solid rgb(242, 234, 25);
+  padding:4.5%;
   color:rgb(245, 244, 228);
 }
 
