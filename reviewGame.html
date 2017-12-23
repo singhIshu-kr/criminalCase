@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="result/suspects.css">
+    <script type="text/javascript" src="/storeFeedBack.js"></script>
+  </head>
+  <body>
+    <h2><a href="./landingPage/mainPage.html"><<</a>Guest Book</h2>
+    <hr>
+    <div class="alignImage" onclick="getRating()"  id="1">
+      <img src="resources/star.png" style="width:60px;height:60px">
+    </div>
+    <div class="alignImage" onclick="getRating()" id="2">
+      <img src="resources/star.png" style="width:60px;height:60px" >
+    </div>
+    <div class="alignImage" onclick="getRating()" id="3">
+      <img src="resources/star.png" style="width:60px;height:60px">
+    </div>
+    <div class="alignImage" onclick="getRating()"  id="4">
+      <img src="resources/star.png" style="width:60px;height:60px">
+    </div>
+    <div class="alignImage" onclick="getRating()"  id="5">
+      <img src="resources/star.png" style="width:60px;height:60px">
+    </div>
+    <br>
+    <br>
+    <h3>Leave a Comment</h3>
+    <form action="feedback" method="post">
+      Name:<input type="text" name="name">
+      <br>
+      <br>
+      Comment:
+      <br>
+      <textarea name="comment" rows="8" cols="80" required></textarea>
+      <br>
+      <input type="submit" value="submit" required>
+    </form>
+    <br>
+    <br>
+    <hr>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Name</th>
+        <th>Comment</th>
+      </tr>
+      <tr></tr>
+    </table>
+  </body>
+</html>

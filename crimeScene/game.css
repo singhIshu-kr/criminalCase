@@ -1,0 +1,47 @@
+h1{
+  color: rgb(242, 240, 17);
+  text-align: center;
+  font-style: italic;
+  font-size: 45px;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(242, 240, 17);
+  padding-left: 30px;
+}
+
+
+a{
+  color: rgb(200, 231, 242);
+  font-size: 25px;
+  text-align: center;
+}
+
+#timer{
+  text-align: right;
+  font-size: 40px;
+  color: rgb(242, 240, 17);
+}
+
+table{
+  margin-left: 100px;
+  background-image: url("../resources/criminal.jpg");
+  border:solid black;
+  background-repeat: no-repeat;
+  background-size: 1350px 720px;
+}
+tr,td{
+  border: 0px solid rgb(242, 234, 25);
+  padding:60px;
+  color:rgb(245, 244, 228);
+}
+
+td:hover{
+  color: red;
+}
+
+body{
+    background-color: rgb(26, 11, 116);
+}

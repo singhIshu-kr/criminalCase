@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="crimeSceneModel.js"></script>
+    <script type="text/javascript" src="crimeGameController.js"></script>
+    <link rel="stylesheet" href="game.css">
+    <title></title>
+  </head>
+  <body onclick="play()">
+    <audio id="audio" src="../resources/backgroundMusic.mp3">
+    </audio>
+    <h1 id="gameName">CRIMINAL CASE</h1>
+    <h2 id="score">Search the given Evidences within the Time</h2>
+    <p><a href="../gameInstructions/instructions.html" id="nextLevel"></a></p>
+    <br>
+    <br>
+    <audio id="rightChoice" src="../resources/confident.mp3"></audio>
+    <table  style="width:90%" onclick="executeGame()" id="crimeScene">
+      <tr>
+        <td id="LollyPop">LollyPop</td>
+        <td ></td>
+        <td ></td>
+        <td id="1"></td>
+        <td id="2"></td>
+        <td ></td>
+      </tr>
+      <tr>
+        <td id="Crucifix">Crucifix</td>
+        <td id="6"></td>
+        <td id="3"></td>
+        <td id="4"></td>
+        <td ></td>
+        <td id="timer"></td>
+      </tr>
+      <tr>
+        <td id="clock">clock</td>
+        <td id="5"></td>
+        <td ></td>
+        <td ></td>
+        <td ></td>
+        <td id="7"></td>
+      </tr>
+      <tr>
+        <td id="Feather" >Feather</td>
+        <td id="8"></td>
+        <td id="0"></td>
+        <td ></td>
+        <td id="9"></td>
+        <td ></td>
+      </tr>
+      <tr>
+        <td id="Teddy Bear" >Teddy Bear</td>
+        <td ></td>
+        <td ></td>
+        <td ></td>
+        <td ></td>
+        <td ></td>
+      </tr>
+    </table>
+  </body>
+</html>

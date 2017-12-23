@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(26, 11, 116);
+}
+
+h1{
+  color: rgb(223, 231, 175);
+  font-size: 50px;
+  text-align: center;
+}
+
+h2{
+  text-align: left;
+  font-size: 35px;
+  color:rgb(213, 230, 76);
+}
+
+img {
+    position: absolute;
+    left: 820px;
+    top: 170px;
+    height: 510px;
+    width: 600px;
+}
+
+h3,form,table{
+  color:rgb(213, 230, 76);
+}
+
+a{
+  color: rgb(200, 231, 242);
+  font-size: 25px;
+  text-align: center;
+}
+
+p{
+  text-align: left;
+  font-size: 30px;
+  color: rgb(213, 230, 76);
+  padding-left: 40px;
+
+}

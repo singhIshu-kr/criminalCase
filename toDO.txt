@@ -1,0 +1,15 @@
+Requirements Of the Game:
+
+* make a function that will match the onclick id with the selected object.
+* update the score as the items are being detected.
+* update the items that are to be searched  for.
+* set the timer when the game is on and the user has to find all the items in that time interval.
+
+==================================================================================
+
+Process of Execution:
+
+* the game will load with the crime scene image
+* the time and the score will be zero.
+* the items to be searched will be displayed on screen.
+* if the user d
