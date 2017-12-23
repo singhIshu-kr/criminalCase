@@ -2,13 +2,8 @@ body{
   background-color: rgb(26, 11, 116);
 }
 img{
-  width: 1450px;
-  height: 550px;
-}
-
-a{
-  color: rgb(200, 231, 242);
-  font-size: 20px;
+  width: 90%;
+  height: 30%;
 }
 
 p{
