@@ -4,34 +4,34 @@ body{
 
 h1{
   color: rgb(223, 231, 175);
-  font-size: 50px;
+  font-size: 400%;
   text-align: center;
 }
 
 h2{
   text-align: left;
-  font-size: 35px;
+  font-size: 200%;
   color:rgb(213, 230, 76);
 }
 
 img {
     position: absolute;
-    left: 820px;
-    top: 170px;
-    height: 510px;
-    width: 600px;
+    left: 58%;
+    top: 25%;
+    height: 70%;
+    width: 43%;
 }
 
 a{
   color: rgb(200, 231, 242);
-  font-size: 25px;
+  font-size: 150%;
   text-align: center;
 }
 
 p{
   text-align: left;
-  font-size: 30px;
+  font-size: 200%;
   color: rgb(213, 230, 76);
-  padding-left: 40px;
+  padding-left: 4%;
 
 }

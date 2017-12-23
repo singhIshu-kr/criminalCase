@@ -2,20 +2,14 @@ h1{
   color: rgb(242, 240, 17);
   text-align: center;
   font-style: italic;
-  font-size: 45px;
+  font-size: 300%;
 }
 
 h2{
   text-align: center;
-  font-size: 40px;
+  font-size: 260%;
   color: rgb(242, 240, 17);
-  padding-left: 30px;
-}
-
-#timer{
-  text-align: right;
-  font-size: 40px;
-  color: rgb(242, 240, 17);
+  padding-left: 3%;
 }
 
 table{
@@ -23,12 +17,11 @@ table{
   border:solid black;
   background-repeat: no-repeat;
   background-color: rgb(185, 210, 180);
-  background-size: 1000px 720px;
 }
 
 tr,td{
-  border: 2px solid rgb(242, 234, 25);
-  padding:40px;
+  border: 3px solid rgb(242, 234, 25);
+  padding:7%;
   color:rgb(245, 244, 228);
 }
 
