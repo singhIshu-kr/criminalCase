@@ -4,7 +4,7 @@ let horizontalpos=100;
 const showNextPageLink=function(){
   let nextPageRequest=document.getElementById("pressEnter");
   clearInterval(interval);
-  location="../caseStudy/caseStudy.html";
+  location="caseStudy/caseStudy.html";
 }
 
 
