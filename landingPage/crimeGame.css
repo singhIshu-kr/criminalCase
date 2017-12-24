@@ -1,9 +1,16 @@
 body{
   background-color: rgb(26, 11, 116);
 }
+
 img{
-  width: 90%;
-  height: 30%;
+  width: 1450px;
+  height: 550px;
+}
+
+#policeCar{
+  position: absolute;
+  width: 18%;
+  height: 18%;
 }
 
 p{

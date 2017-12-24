@@ -1,7 +1,7 @@
 let gameRules=["We have found the location","of the suspected killers",
 "But both of them ran away.","According to the tracking team",
 "The suspects are hiding inside the house","In order to catch the suspects",
-"You will have to cross the mine field","Within 15 moves"]
+"You will have to cross the mine field","Within 15 moves","Move forward,left or right"]
 
 let index=0;
 
