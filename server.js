@@ -34,7 +34,7 @@ const dealWithPost = function(request) {
 
 const setHomePage = function(response) {
   response.statusCode = 302;
-  response.setHeader('Location', "/landingPage/mainPage.html");
+  response.setHeader('Location', "/index.html");
   response.end();
 }
 
