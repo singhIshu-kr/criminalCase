@@ -6,7 +6,7 @@ const Score=function() {
 let score=new Score();
 
 const setOneMinTimer=function() {
-  if(score.time==0){
+  if(score.time==0 || score.score >= 200){
     clearInterval(displayTimer);
     document.getElementById("score").innerHTML="Your Score is  "+score.score;
     document.getElementById("crimeScene").onclick=null;
@@ -31,18 +31,13 @@ const rightChoice=function(){
 }
 
 const displayGameOver=function() {
-  let gameName=document.getElementById("gameName");
-  gameName.innerHTML="GAME OVER";
-}
-
-const displayNextLevelLink=function() {
-  let nextLevel=document.getElementById("nextLevel");
-  nextLevel.innerHTML="CLICK HERE TO CONTINUE TO NEXT STAGE";
+  let gameName=document.getElementsByClassName("gameOver")[0];
+  gameName.style.display = "block";
 }
 
 const decideAndDisplayResult=function() {
   if (score.score>100) {
-    displayNextLevelLink();
+    location = "../gameInstructions/instructions.html";
   }
   else {
     displayGameOver();
