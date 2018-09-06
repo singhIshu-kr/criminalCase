@@ -1,19 +1,20 @@
 h1{
-  color: rgb(242, 240, 17);
+  color: rgb(223, 231, 175);
   text-align: center;
   font-style: italic;
   font-size: 300%;
+  font-style: unset;
 }
 
 h2{
   text-align: center;
-  font-size: 260%;
+  font-size: 1.7rem;
   color: rgb(242, 240, 17);
-  padding-left: 3%;
 }
 
 table{
   margin: auto;
+  margin-top: -3%;
   border:solid black;
   background-repeat: no-repeat;
   background-color: rgb(185, 210, 180);
@@ -30,5 +31,5 @@ td:hover{
 }
 
 body{
-    background-color: rgb(26, 11, 116);
+    background-color: #0d044a;
 }

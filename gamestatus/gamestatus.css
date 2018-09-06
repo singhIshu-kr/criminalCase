@@ -1,11 +1,12 @@
 body{
-  background-color: rgb(26, 11, 116);
+  background-color: #0d044a;
 }
 
 h1{
   color: rgb(223, 231, 175);
-  font-size: 400%;
+  font-size: 3.5rem;
   text-align: center;
+  font-style: unset;
 }
 
 h2{
@@ -15,6 +16,7 @@ h2{
 }
 
 img {
+    border-radius: 1.75rem;
     position: absolute;
     left: 58%;
     top: 25%;

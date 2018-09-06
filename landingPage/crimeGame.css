@@ -1,8 +1,9 @@
 body{
-  background-color: rgb(26, 11, 116);
+  background-color: #0d044a;
 }
 
 img{
+  border-radius: 1.75rem;
   width: 1450px;
   height: 550px;
 }

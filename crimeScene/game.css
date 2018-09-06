@@ -1,13 +1,13 @@
 h1{
-  color: rgb(242, 240, 17);
+  color: rgb(223, 231, 175);
   text-align: center;
-  font-style: italic;
-  font-size: 300%;
+  font-style:unset;
+  font-size: 3rem;
 }
 
 h2{
   text-align: center;
-  font-size: 250%;
+  font-size: 2.5rem;
   color: rgb(242, 240, 17);
   padding-left: 4.5%;
 }
@@ -32,7 +32,9 @@ table{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
 tr,td{
+  width: 10%;
   border: 0% solid rgb(242, 234, 25);
   padding:4.5%;
   color:rgb(245, 244, 228);
@@ -43,5 +45,24 @@ td:hover{
 }
 
 body{
-    background-color: rgb(26, 11, 116);
+    background-color: #0d044a;
 }
+
+.gameOver{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(23, 20, 47, 0.86);
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+
+
+
